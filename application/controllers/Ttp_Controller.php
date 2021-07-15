@@ -9,11 +9,11 @@
 */
 ?>
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-require_once(dirname(__FILE__) . "/../MainController.php");
+defined('BASEPATH') or exit('No direct script access allowed');
+require_once(dirname(__FILE__) . "/MainController.php");
 
-
-class Manage_training_record extends MainController {
+class Ttp_Controller extends MainController
+{
 
 	/**
 	 * Index Page for this controller.
@@ -30,7 +30,7 @@ class Manage_training_record extends MainController {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	
+
 	/*
 	* index
 	* 
@@ -41,24 +41,9 @@ class Manage_training_record extends MainController {
 	*/
 	function index()
 	{
-		$this->output('/consent/tr_manage_training_record/v_manage_training_record');
+		$this->output('Main_index');
 	}
 	// function index()
-	function info_training_data()
-	{
-		$this->output('/consent/tr_manage_training_record/v_info_training_record');
-	}
-	// function create_training_data()
-	function create_training_data()
-	{
-		$this->output('/consent/tr_manage_training_record/v_create_training_record');
-	}
-	// function create_training_data()
-	function edit_training_data()
-	{
-		$this->output('/consent/tr_manage_training_record/v_edit_training_record');
-	}
-	// function create_training_data()
- 
+
 }
 // 

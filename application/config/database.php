@@ -70,15 +70,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'trs';
+$active_group = 'ttps';
 $query_builder = TRUE;
 $host_db = 'localhost';
-$db['trs'] = array(
+$db['ttps'] = array(
 	'dsn'	=> '',
 	'hostname' => $host_db,
 	'username' => 'root',
 	'password' => 'root123456',
-	'database' => 'trs_database',
+	'database' => 'ttps_database',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -95,4 +95,4 @@ $db['trs'] = array(
 	'save_queries' => TRUE
 );
 
-// Evs System 
+// TTP System 
