@@ -46,10 +46,10 @@ class MainController extends CI_Controller
 	public function output($body, $data = '')
 	{
 		$this->header();
-		$this->javascript();
 		$this->sidebar();
 		$this->topbar();
 		$this->load->view($body, $data);
+		$this->javascript();
 		$this->footer();
 	}
 
