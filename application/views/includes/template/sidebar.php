@@ -10,16 +10,17 @@
 
 ?>
 <style>
-
 #left-panel {
-      background-color: #263238;
+    background-color: #263238;
 }
-#main-menu{
-      background-color: #263238;
+
+#main-menu {
+    background-color: #263238;
 }
-#icon_sidebar{
+
+#icon_sidebar {
     font-size: 25px;
-   
+
 }
 </style>
 
@@ -34,50 +35,22 @@
             <!-- Start tap menu sidebar   -->
             <ul class="nav navbar-nav">
                 <li class="menu-item">
-                
-                    <a href="<?php echo base_url()?>Trs_Controller/index"><i class="menu-icon fa fa-home fa-lg"
-                            style="color: white" id="icon_sidebar"></i><font size="3">Home</font> </a>
+
+                    <a href="<?php echo base_url() ?>Ttp_Controller/index"><i class="menu-icon fa fa-home fa-lg"
+                            style="color: white" id="icon_sidebar"></i>
+                        <font size="3">Home</font>
+                    </a>
                 </li>
                 <!-- Home page  -->
 
-                <li class="menu-title" ><font color="white">Menu</font></li>
+                <li class="menu-title">
+                    <font color="white">Menu</font>
+                </li>
                 <!-- /.menu-title -->
 
                 <li class="menu-item">
-                    <a href="<?php echo base_url() ?>tr_manage_training_configuration/Manage_training_configuration/index"><i
-                            class="menu-icon fa fa-tasks " style="color: white" id="icon_sidebar"></i>Manage Training Configuration</a>
+                    <a href="#"><i class="menu-icon fa fa-tasks " style="color: white" id="icon_sidebar"></i>TEST</a>
                 </li>
-                <!-- อิอิ  -->
-
-                <li class="menu-item">
-                    <a href=""><i
-                            class="menu-icon fa fa-users" style="color: white" id="icon_sidebar"></i>Employee Training Record</a>
-                </li>
-                <!-- อิอิ  -->
-
-                <li class="menu-item">
-                    <a href="<?php echo base_url() ?>tr_manage_training_record/Manage_training_record/index"><i
-                            class="menu-icon fa fa-pencil-square" style="color: white" id="icon_sidebar"></i>Manage Training Record</a>
-                </li>
-                <!-- อิอิ  -->
-
-                <li class="menu-item">
-                    <a href=""><i
-                            class="menu-icon fa fa-book" style="color: white" id="icon_sidebar"></i>Report</a>
-                </li>
-                <!-- อิอิ  -->
-
-                <li class="menu-item">
-                    <a href=""><i
-                            class="menu-icon ti ti-id-badge" style="color: white" id="icon_sidebar"></i>Profile</a>
-                </li>
-                <!-- อิอิ  -->
-
-         
-                
-              
-
-
 
             </ul>
             <!-- End tap menu sidebar  -->
