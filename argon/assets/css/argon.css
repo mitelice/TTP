@@ -22823,7 +22823,7 @@ textarea[resize='horizontal']
 }
 .navbar-top.border-bottom.navbar-dark
 {
-    border-color: rgba(255, 255, 255, .08) !important;
+    border-color: rgba(255, 0, 0, 0.08) !important;
 }
 .navbar-top.border-bottom.navbar-light
 {

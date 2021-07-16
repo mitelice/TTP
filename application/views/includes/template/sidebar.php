@@ -13,51 +13,51 @@
                   <!-- Nav items -->
                   <ul class="navbar-nav">
                       <li class="nav-item ">
-                          <a class="nav-link active" href="<?php echo base_url() ?>list/ttp_list/index">
+                          <a class="nav-link " href="<?php echo base_url() ?>home/ttp_home/index">
                               <i class="ni ni-tv-2 text-primary"></i>
-                              <span class="nav-link-text">List</span>
+                              <span class="nav-link-text">Home</span>
                           </a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="examples/icons.html">
+                          <a class="nav-link" href="<?php echo base_url() ?>licence_form/ttp_licence_form/index">
                               <i class="ni ni-planet text-orange"></i>
-                              <span class="nav-link-text">Icons</span>
+                              <span class="nav-link-text">Licence Form</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/map.html">
                               <i class="ni ni-pin-3 text-primary"></i>
-                              <span class="nav-link-text">Google</span>
+                              <span class="nav-link-text">Renewall Form</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/profile.html">
                               <i class="ni ni-single-02 text-yellow"></i>
-                              <span class="nav-link-text">Profile</span>
+                              <span class="nav-link-text">Check Schedule</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/tables.html">
                               <i class="ni ni-bullet-list-67 text-default"></i>
-                              <span class="nav-link-text">Tables</span>
+                              <span class="nav-link-text">Check out</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/login.html">
                               <i class="ni ni-key-25 text-info"></i>
-                              <span class="nav-link-text">Login</span>
+                              <span class="nav-link-text">Status Form</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/register.html">
                               <i class="ni ni-circle-08 text-pink"></i>
-                              <span class="nav-link-text">Register</span>
+                              <span class="nav-link-text">History Formr</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/upgrade.html">
                               <i class="ni ni-send text-dark"></i>
-                              <span class="nav-link-text">Upgrade</span>
+                              <span class="nav-link-text">Requested</span>
                           </a>
                       </li>
                   </ul>
