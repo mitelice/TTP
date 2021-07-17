@@ -4,7 +4,7 @@
           <!-- Brand -->
           <div class="sidenav-header  align-items-center">
               <a class="navbar-brand" href="javascript:void(0)">
-                  <img src="assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+                  <img src="../../argon/assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
               </a>
           </div>
           <div class="navbar-inner">
@@ -20,43 +20,43 @@
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="<?php echo base_url() ?>licence_form/ttp_licence_form/index">
-                              <i class="ni ni-planet text-orange"></i>
+                              <i class="ni ni-badge text-orange"></i>
                               <span class="nav-link-text">Licence Form</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/map.html">
-                              <i class="ni ni-pin-3 text-primary"></i>
+                              <i class="ni ni-single-copy-04 text-primary"></i>
                               <span class="nav-link-text">Renewall Form</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/profile.html">
-                              <i class="ni ni-single-02 text-yellow"></i>
+                              <i class="ni ni-calendar-grid-58 text-yellow"></i>
                               <span class="nav-link-text">Check Schedule</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/tables.html">
-                              <i class="ni ni-bullet-list-67 text-default"></i>
+                              <i class="ni ni-user-run text-default"></i>
                               <span class="nav-link-text">Check out</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/login.html">
-                              <i class="ni ni-key-25 text-info"></i>
+                              <i class="ni ni-tag text-info"></i>
                               <span class="nav-link-text">Status Form</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/register.html">
-                              <i class="ni ni-circle-08 text-pink"></i>
+                              <i class="ni ni-time-alarm text-pink"></i>
                               <span class="nav-link-text">History Formr</span>
                           </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="examples/upgrade.html">
-                              <i class="ni ni-send text-dark"></i>
+                              <i class="ni ni-email-83 text-dark"></i>
                               <span class="nav-link-text">Requested</span>
                           </a>
                       </li>

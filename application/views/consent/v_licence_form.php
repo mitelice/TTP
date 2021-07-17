@@ -71,7 +71,8 @@
                             <div class="form-group">
                                 <label class="form-control-label" for="input-city">Company
                                     (บริษัท)</label><br>
-                                <select name="Company" id="cars" class="form-control-label">
+                                <select name="Company" id="company" class="form-select"
+                                    aria-label="Default select example">
                                     <option value="1">Siam Denso Manufactoring</option>
                                     <option value="2">Siam Kyosan Manufactoring</option>
                                     <option value="3">Siam Denso & Kyosan</option>
@@ -101,9 +102,10 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <label class="form-control-label" for="input-city">Company
-                                    (บริษัท)</label><br>
-                                <select name="Company" id="cars" class="form-control-label">
+                                <label class="form-control-label" for="input-city">Supervisor
+                                    (หัวหน้างาน)</label><br>
+                                <select name="Company" id="company" class="form-select"
+                                    aria-label="Default select example">
                                     <option value="1">Siam Denso Manufactoring</option>
                                     <option value="2">Siam Kyosan Manufactoring</option>
                                     <option value="3">Siam Denso & Kyosan</option>
@@ -113,9 +115,10 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <label class="form-control-label" for="input-city">Company
-                                    (บริษัท)</label><br>
-                                <select name="Company" id="cars" class="form-control-label">
+                                <label class="form-control-label" for="input-city">Approve Plant
+                                </label><br>
+                                <select name="Company" id="company" class="form-select"
+                                    aria-label="Default select example">
                                     <option value="1">Siam Denso Manufactoring</option>
                                     <option value="2">Siam Kyosan Manufactoring</option>
                                     <option value="3">Siam Denso & Kyosan</option>
