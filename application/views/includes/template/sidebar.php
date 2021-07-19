@@ -19,7 +19,7 @@
                           </a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="<?php echo base_url() ?>licence_form/ttp_licence_form/index">
+                          <a class="nav-link" href="<?php echo base_url() ?>licence_form/licence_input/index">
                               <i class="ni ni-badge text-orange"></i>
                               <span class="nav-link-text">Licence Form</span>
                           </a>
